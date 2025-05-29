@@ -1,0 +1,19 @@
+{
+  "name": "react-light-arm",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "containerEnv": {
+    "NODE_OPTIONS": "--max-old-space-size=256"
+  },
+  "customizations": {
+    "vscode": {
+      // "extensions": [
+      //   "esbenp.prettier-vscode",
+      //   "dbaeumer.vscode-eslint"
+      // ]
+    }
+  },
+  "remoteUser": "node"
+}
